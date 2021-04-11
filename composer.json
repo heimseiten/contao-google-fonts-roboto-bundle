@@ -1,0 +1,39 @@
+{
+    "name": "heimseiten/contao-google-fonts-roboto-bundle",
+    "description": "Google Fonts - Indie Flower",
+    "keywords": [
+        "Schriftart",
+        "Webfont"
+    ],
+    "type": "contao-bundle",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "heimseiten.de - Webdesign aus Köln",
+            "email": "info@heimseiten.de",
+            "homepage": "https://www.heimseiten.de",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/heimseiten/contao-google-fonts-roboto-bundle/issues",
+        "source": "https://github.com/heimseiten/contao-google-fonts-roboto-bundle"
+    },
+    "require": {
+        "contao/core-bundle": "^4.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Heimseiten\\ContaoGoogleFontsRobotoBundle\\": "src/"
+        },
+        "classmap": [
+            "src/Resources/contao"
+        ],
+        "exclude-from-classmap": [
+            "src/Resources/contao/config"
+        ]
+    },
+    "extra": {
+        "contao-manager-plugin": "Heimseiten\\ContaoGoogleFontsRobotoBundle\\ContaoManager\\Plugin"
+    }
+}
